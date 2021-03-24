@@ -54,7 +54,6 @@ fairy.bounceOff(edges)
 
   background(bgImg);
 
-  keyPressed();
 
 
  
