@@ -65,10 +65,10 @@ drawSprites();
 
 function keyPressed(){
 	if(keyDown("RIGHT_ARROW")){
-		fairy.velocityX=2
+		fairy.x=fairy.x+2
 	}
 	if(keyDown("LEFT_ARROW")){
-		fairy.velocityX=-2
+		fairy.x=fairy.x-2
 	}
 	if(keyDown("DOWN_ARROW")){
 		star.velocityY=20
